@@ -38,4 +38,7 @@ pip3 --version
 
 echo "Pyenv installed."
 
+git clone https://github.com/praetorian-inc/Hob0Rules.git
+
+echo " go to the Hob0Rules file and unzip the wordlists there."
 exit 0 
