@@ -6,8 +6,7 @@ if [ $(id -u) -ne 1 ]; then
 fi
 
 echo "Installing Xerxes..."
-cd ~
-git clone https://github.com/sepehrdaddev/Xerxes.git ~
+git clone https://github.com/sepehrdaddev/Xerxes.git $HOME
 cd Xerxes
 git submodule update --init --recursive
 mkdir build
